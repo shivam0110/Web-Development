@@ -1,0 +1,91 @@
+.sliderwrapper{
+position: relative; /*leave as is*/
+overflow: hidden; /*leave as is*/
+width: 460px; /*width of featured content slider*/
+height: 485px;
+background: #f0f0f0;
+}
+
+
+
+.sliderwrapper .contentdiv{
+visibility: hidden; /*leave as is*/
+/*position: absolute; /*leave as is*/
+left: 0;  /*leave as is*/
+top: 0;  /*leave as is*/
+padding: 30px 40px 20px 40px;
+width: 460px; /*width of content DIVs within slider. Total width should equal slider's inner width (390+5+5=400) */
+height: 465px;
+
+filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+background: #f0f0f0;
+overflow: auto;
+
+}
+
+.pagination{
+width: 320px; /*Width of pagination DIV. Total width should equal slider's outer width (400+10+10=420)*/
+}
+
+.pagination a{
+	display: block;
+	width: 230px;
+	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-decoration: none; 
+	outline: none;
+}
+
+.pagination .home {
+	background: url(images/templatemo_home_menu.png) no-repeat;
+}
+
+.pagination .Products {
+	background:url(images/templatemo_Products_2.png) no-repeat;
+}
+
+.pagination .contact {
+	background: url(images/templatemo_contact.png) no-repeat;
+}
+
+.pagination a:hover, .pagination a.selected{
+	color: #000000;
+	/*background-color: rgb(255, 255, 255);*/
+}
+
+
+
+#slider4{
+	width: 540px;
+}
+
+#paginate-slider4{
+	width: 230px;
+}
+
+#paginate-slider4 a img{
+	display: block;
+	width: 230px;
+	height: 60px;
+	border: none;
+	margin-bottom: 10px;
+}
+
+#paginate-slider4 a img:hover, #paginate-slider4 a.selected img{
+	border: none;
+}
+
+#paginate-slider4 a.home.selected{
+	background: url(images/templatemo_home_menu_hover.png) no-repeat;
+}
+
+#paginate-slider4 a.Products.selected{
+	background:url(images/templatemo_Products_1.png) no-repeat;
+}
+
+#paginate-slider4 a.contact.selected{
+	background: url(images/templatemo_contact_hover.png) no-repeat;
+}
