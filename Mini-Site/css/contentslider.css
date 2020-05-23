@@ -48,7 +48,7 @@ width: 320px; /*Width of pagination DIV. Total width should equal slider's outer
 }
 
 .pagination .contact {
-	background: src"images/templatemo_contact.png" no-repeat;
+	background: src="images/templatemo_contact.png" no-repeat;
 }
 
 .pagination a:hover, .pagination a.selected{
@@ -79,13 +79,13 @@ width: 320px; /*Width of pagination DIV. Total width should equal slider's outer
 }
 
 #paginate-slider4 a.home.selected{
-	background: src"images/templatemo_home_menu_hover.png" no-repeat;
+	background: src="images/templatemo_home_menu_hover.png" no-repeat;
 }
 
 #paginate-slider4 a.Products.selected{
-	background: src"images/templatemo_Products_1.png" no-repeat;
+	background: src="images/templatemo_Products_1.png" no-repeat;
 }
 
 #paginate-slider4 a.contact.selected{
-	background: src"images/templatemo_contact_hover.png" no-repeat;
+	background: src="images/templatemo_contact_hover.png" no-repeat;
 }
