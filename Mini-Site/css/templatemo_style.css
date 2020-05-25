@@ -51,7 +51,7 @@ img {
 	color: #ffffff;
 	text-decoration: none;
 	border: none; 
-	background: url(images/templatemo_button.jpg) no-repeat;
+	background: url(../images/templatemo_button.jpg) no-repeat;
 }
 
 .header_01 {
@@ -98,7 +98,7 @@ img {
 	width: 230px;
 	height: 110px;
 	margin-bottom: 25px;
-	background:url(images/templatemo_site_title.png)
+	background:url(../images/templatemo_site_title.png)
 }
 
 #templatemo_content {
@@ -201,7 +201,7 @@ img {
 	width: 100%;
 	margin: 0 auto;
 	background-color: #000000;
-	background: url(images/templatemo_footer_bg.jpg) repeat-x;	
+	background: url(../images/templatemo_footer_bg.jpg) repeat-x;	
 }
 
 #templatemo_footer {
